@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+header{
+    background-color: lightgrey;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+/* Main*/
+main{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    background-color: beige;
+    padding:5px;
+}
+
+/*aside*/
+
+aside{
+    flex: 1;
+    overflow-y: auto;
+    background-color: antiquewhite;
+    text-align: right;
+}
+
+/*article*/
+
+article{
+    flex: 3;
+    overflow-y: auto;
+}
+
+/*footer*/
+
+footer{
+    background-color: lightgrey;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid black;
+}
